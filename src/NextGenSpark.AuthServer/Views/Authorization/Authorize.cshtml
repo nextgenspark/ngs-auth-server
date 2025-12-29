@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Authorize";
+}
+
+<div class="card">
+    <h3>Authorize Application</h3>
+
+    <p>
+        An application is requesting access to your account.
+    </p>
+
+    <form method="post" action="/connect/authorize">
+        <button type="submit">Allow</button>
+    </form>
+</div>

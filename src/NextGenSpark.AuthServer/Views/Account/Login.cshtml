@@ -1,0 +1,22 @@
+﻿@Html.AntiForgeryToken()
+@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Login";
+}
+
+<div class="card">
+    <h3>Sign in</h3>
+
+    <form method="post" action="/login">
+        <input type="hidden" name="returnUrl"
+               value="@ViewData["ReturnUrl"]" />
+
+        <label>Username</label>
+        <input type="text" name="username" required />
+
+        <label>Password</label>
+        <input type="password" name="password" required />
+
+        <button type="submit">Login</button>
+    </form>
+</div>

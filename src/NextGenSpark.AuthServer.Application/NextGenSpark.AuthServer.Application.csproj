@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Behaviors\" />
+    <Folder Include="Commands\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NextGenSpark.AuthServer.Infrastructure\NextGenSpark.AuthServer.Infrastructure.csproj" />
+    <ProjectReference Include="..\NextGenSpark.AuthServer.Shared\NextGenSpark.AuthServer.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
+    

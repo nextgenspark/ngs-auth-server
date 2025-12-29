@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextGenSpark.AuthServer", "NextGenSpark.AuthServer.csproj", "{9BF6BA75-1BAB-4A8E-A0B8-35919DFC6C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextGenSpark.AuthServer.Application", "..\NextGenSpark.AuthServer.Application\NextGenSpark.AuthServer.Application.csproj", "{3B543067-BC8A-47CB-9A7B-C7B2C655096D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextGenSpark.AuthServer.Domain", "..\NextGenSpark.AuthServer.Domain\NextGenSpark.AuthServer.Domain.csproj", "{CE232186-F900-485D-BECF-99C8CE8B42EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextGenSpark.AuthServer.OpenIddict", "..\NextGenSpark.AuthServer.OpenIddict\NextGenSpark.AuthServer.OpenIddict.csproj", "{29611EE0-45BE-4D4E-AF1C-8FE86EBE9EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextGenSpark.AuthServer.Infrastructure", "..\NextGenSpark.AuthServer.Infrastructure\NextGenSpark.AuthServer.Infrastructure.csproj", "{3EA4D09C-52C2-4DBC-972E-046E07564777}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NextGenSpark.AuthServer.Shared", "..\NextGenSpark.AuthServer.Shared\NextGenSpark.AuthServer.Shared.csproj", "{0C45E326-1F37-4B99-9462-211C824B353F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BF6BA75-1BAB-4A8E-A0B8-35919DFC6C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF6BA75-1BAB-4A8E-A0B8-35919DFC6C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF6BA75-1BAB-4A8E-A0B8-35919DFC6C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF6BA75-1BAB-4A8E-A0B8-35919DFC6C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B543067-BC8A-47CB-9A7B-C7B2C655096D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B543067-BC8A-47CB-9A7B-C7B2C655096D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B543067-BC8A-47CB-9A7B-C7B2C655096D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B543067-BC8A-47CB-9A7B-C7B2C655096D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE232186-F900-485D-BECF-99C8CE8B42EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE232186-F900-485D-BECF-99C8CE8B42EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE232186-F900-485D-BECF-99C8CE8B42EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE232186-F900-485D-BECF-99C8CE8B42EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29611EE0-45BE-4D4E-AF1C-8FE86EBE9EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29611EE0-45BE-4D4E-AF1C-8FE86EBE9EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29611EE0-45BE-4D4E-AF1C-8FE86EBE9EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29611EE0-45BE-4D4E-AF1C-8FE86EBE9EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA4D09C-52C2-4DBC-972E-046E07564777}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA4D09C-52C2-4DBC-972E-046E07564777}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA4D09C-52C2-4DBC-972E-046E07564777}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA4D09C-52C2-4DBC-972E-046E07564777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C45E326-1F37-4B99-9462-211C824B353F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C45E326-1F37-4B99-9462-211C824B353F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C45E326-1F37-4B99-9462-211C824B353F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C45E326-1F37-4B99-9462-211C824B353F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C76AA63E-0155-425E-B24F-6C0357D823CF}
+	EndGlobalSection
+EndGlobal

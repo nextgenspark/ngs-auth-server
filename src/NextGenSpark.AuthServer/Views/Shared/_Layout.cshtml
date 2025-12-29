@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Auth Server</title>
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Security headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta http-equiv="X-Frame-Options" content="DENY" />
+    <meta http-equiv="Referrer-Policy" content="no-referrer" />
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f5f6fa;
+        }
+
+        .card {
+            width: 380px;
+            margin: 80px auto;
+            padding: 24px;
+            background: white;
+            border-radius: 6px;
+            box-shadow: 0 0 10px rgba(0,0,0,.1);
+        }
+
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        button {
+            background: #1e90ff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background: #0066cc;
+            }
+    </style>
+</head>
+<body>
+    @RenderBody()
+
+    <footer style="text-align:center;margin-top:20px;font-size:12px;color:#888">
+        © @DateTime.UtcNow.Year NextGenSpark Auth Server
+    </footer>
+</body>
+</html>
